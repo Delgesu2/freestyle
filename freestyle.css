@@ -1,0 +1,161 @@
+/* Police de caractères */
+@font-face {
+	font-family: 'MEF';
+	src: url('MEF-Display.ttf');
+}
+
+
+
+body {
+	background-color: black;
+	background-image: url(bg.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+	color: white;
+}
+
+h1, h2 {
+	font-family: 'MEF';	
+}
+
+h1 {
+	font-size: 45px;
+	margin-top: 60px;
+	margin-left: 50px;
+}
+
+/* Fond noir-rose et flex pour tout le centre */
+.centre {
+	
+	background-image: url(full.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+	height: auto;	
+	display: flex;
+}
+
+
+/* Colonne de gauche */
+article {
+	margin-left: 600px;
+	width: 20%;
+	padding-left: 18px;
+}
+
+h2 {
+	border-top-color: yellow;
+	border-top-style: solid;
+	padding-top: 2px;
+	margin-bottom: 1px;
+	font-size: 1.8em;
+}
+
+h3 {
+	background-color: yellow;
+	color: black;
+	font-family: 'MEF';
+	font-size: 1.3em;
+	margin-top: 1px;
+}
+
+#prem_img {
+	float: left;
+	margin: 3px;
+	padding: 3px;
+	border: yellow solid;
+}
+
+#deux_img {
+	float: right;
+	margin: 3px;
+	padding: 3px;
+	border: yellow solid;
+}
+
+.bas_section {
+	border-left-color: yellow;
+	border-left-style: solid;
+	border-left-width: 5px;
+	padding-left: 5px;
+}
+
+.jaune {
+	color: yellow;
+}
+
+blockquote {
+	border-left: none;
+	border-top: solid 2px yellow;
+	border-bottom: solid 2px yellow;
+	background-color: #696969;
+	font-size: 1em;
+}
+
+.btn {
+	background-color: black;
+	color: #7A7A7A;
+	border-left:none;
+	border-right:none;
+}
+
+section>ul {
+    list-style-image: url('bullet.gif');
+}
+
+
+/* Barre du milieu */
+.barre {
+	margin-left: 15px;
+}
+
+/* Colonne de droite */
+
+aside {
+	position: relative ;
+	left: -3px;
+}
+
+.titre {
+	background-image: url(title.jpg);
+	background-repeat: no-repeat;
+	height: 375px;
+	margin-left: 8px;
+}
+
+.links>ul {
+	list-style-image: url(star1.jpg);
+	font-family: 'MEF'
+}
+
+.last {
+	color: #FF1493;
+}
+
+.cadre {
+	border: 3px yellow solid;
+	height: 500px;
+	width: 250px;
+}
+
+.last>ul {
+	list-style-type: none;
+	font-family: 'MEF';
+}
+
+.bas {
+	width: 250px;
+	border: 3px yellow solid;
+}
+
+/* Footer */
+footer {
+	text-align: center;
+}
+
+.imgfoot {
+	background-image: url('footer.gif');
+	position: relative;
+	bottom: -520px;
+	left: -25px;
+	width:25%;
+}
